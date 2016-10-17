@@ -1,0 +1,1 @@
+../../../thingsinabox2/thingsinabox2.uproject  /Game/PuzzleBP/Blueprints/MenuLevel -Messaging -SessionId=235E23B541FCD87A67641393134325BD -SessionOwner="miked" -SessionName="Launch On Device" -iterative
