@@ -636,8 +636,10 @@ C:\Users\miked.FUSEDOM\Documents\Unreal Projects\thingsinabox4\Intermediate\Andr
 C:\Users\miked.FUSEDOM\Documents\Unreal Projects\thingsinabox4\Intermediate\Android\APK\JavaLibs\downloader_library\bin\res\drawable-mdpi\notify_panel_notification_icon_bg.png \
 C:\Users\miked.FUSEDOM\Documents\Unreal Projects\thingsinabox4\Intermediate\Android\APK\res\anim\noaction.xml \
 C:\Users\miked.FUSEDOM\Documents\Unreal Projects\thingsinabox4\Intermediate\Android\APK\res\drawable\downloadimageh.png \
+C:\Users\miked.FUSEDOM\Documents\Unreal Projects\thingsinabox4\Intermediate\Android\APK\res\drawable\downloadimagev.png \
 C:\Users\miked.FUSEDOM\Documents\Unreal Projects\thingsinabox4\Intermediate\Android\APK\res\drawable\icon.png \
 C:\Users\miked.FUSEDOM\Documents\Unreal Projects\thingsinabox4\Intermediate\Android\APK\res\drawable\splashscreen_landscape.png \
+C:\Users\miked.FUSEDOM\Documents\Unreal Projects\thingsinabox4\Intermediate\Android\APK\res\drawable\splashscreen_portrait.png \
 C:\Users\miked.FUSEDOM\Documents\Unreal Projects\thingsinabox4\Intermediate\Android\APK\res\drawable-hdpi\icon.png \
 C:\Users\miked.FUSEDOM\Documents\Unreal Projects\thingsinabox4\Intermediate\Android\APK\res\drawable-hdpi\notify_panel_notification_icon_bg.png \
 C:\Users\miked.FUSEDOM\Documents\Unreal Projects\thingsinabox4\Intermediate\Android\APK\res\drawable-ldpi\icon.png \
@@ -647,10 +649,12 @@ C:\Users\miked.FUSEDOM\Documents\Unreal Projects\thingsinabox4\Intermediate\Andr
 C:\Users\miked.FUSEDOM\Documents\Unreal Projects\thingsinabox4\Intermediate\Android\APK\res\layout\downloader_progress.xml \
 C:\Users\miked.FUSEDOM\Documents\Unreal Projects\thingsinabox4\Intermediate\Android\APK\res\layout\status_bar_ongoing_event_progress_bar.xml \
 C:\Users\miked.FUSEDOM\Documents\Unreal Projects\thingsinabox4\Intermediate\Android\APK\res\layout-land\downloader_progress.xml \
+C:\Users\miked.FUSEDOM\Documents\Unreal Projects\thingsinabox4\Intermediate\Android\APK\res\layout-port\downloader_progress.xml \
 C:\Users\miked.FUSEDOM\Documents\Unreal Projects\thingsinabox4\Intermediate\Android\APK\res\values\GooglePlayAppID.xml \
 C:\Users\miked.FUSEDOM\Documents\Unreal Projects\thingsinabox4\Intermediate\Android\APK\res\values\strings.xml \
 C:\Users\miked.FUSEDOM\Documents\Unreal Projects\thingsinabox4\Intermediate\Android\APK\res\values\styles.xml \
 C:\Users\miked.FUSEDOM\Documents\Unreal Projects\thingsinabox4\Intermediate\Android\APK\res\values-land\styles.xml \
+C:\Users\miked.FUSEDOM\Documents\Unreal Projects\thingsinabox4\Intermediate\Android\APK\res\values-port\styles.xml \
 C:\Users\miked.FUSEDOM\Documents\Unreal Projects\thingsinabox4\Intermediate\Android\APK\res\values-v11\styles.xml \
 C:\Users\miked.FUSEDOM\Documents\Unreal Projects\thingsinabox4\Intermediate\Android\APK\res\values-v9\styles.xml \
 C:\Users\miked.FUSEDOM\Documents\Unreal Projects\thingsinabox4\Intermediate\Android\APK\bin\AndroidManifest.xml \
