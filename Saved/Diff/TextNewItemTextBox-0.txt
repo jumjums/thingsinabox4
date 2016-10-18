@@ -1,0 +1,164 @@
+Begin Object Class=WidgetBlueprint Name="NewItemTextBox"
+   Begin Object Class=WidgetTree Name="WidgetTree" Archetype=WidgetTree'Default__WidgetBlueprint:WidgetTree'
+      Begin Object Class=CanvasPanel Name="CanvasPanel_0"
+         Begin Object Class=CanvasPanelSlot Name="CanvasPanelSlot_1"
+         End Object
+      End Object
+      Begin Object Class=EditableTextBox Name="EditableTextBox_53"
+      End Object
+   End Object
+   Begin Object Class=EdGraph Name="EventGraph"
+      Begin Object Class=K2Node_Event Name="K2Node_Event_0"
+      End Object
+      Begin Object Class=K2Node_Event Name="K2Node_Event_1"
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_0"
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_1"
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_60"
+      End Object
+      Begin Object Class=K2Node_IfThenElse Name="K2Node_IfThenElse_0"
+      End Object
+   End Object
+   Begin Object Class=EdGraph Name="GetbIsEnabled_0"
+      Begin Object Class=K2Node_FunctionResult Name="K2Node_FunctionResult_0"
+      End Object
+      Begin Object Class=K2Node_FunctionEntry Name="K2Node_FunctionEntry_46"
+      End Object
+   End Object
+   Begin Object Name="WidgetTree"
+      Begin Object Name="CanvasPanel_0"
+         Begin Object Name="CanvasPanelSlot_1"
+            LayoutData=(Offsets=(Right=1918.000000,Bottom=123.000000))
+            Parent=CanvasPanel'NewItemTextBox:WidgetTree.CanvasPanel_0'
+            Content=EditableTextBox'NewItemTextBox:WidgetTree.EditableTextBox_53'
+         End Object
+         Slots(0)=CanvasPanelSlot'CanvasPanelSlot_1'
+         bIsVariable=True
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="EditableTextBox_53"
+         WidgetStyle=(Font=(Size=48),ForegroundColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000)))
+         HintText=NSLOCTEXT("", "2808B0FF43C93D09427E3C8030C09834", "Name")
+         Slot=CanvasPanelSlot'NewItemTextBox:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1'
+      End Object
+      RootWidget=CanvasPanel'CanvasPanel_0'
+   End Object
+   Begin Object Name="EventGraph"
+      Begin Object Name="K2Node_Event_0"
+         EventReference=(MemberParent=Class'/Script/UMG.UserWidget',MemberName="Construct")
+         bOverrideFunction=True
+         bCommentBubblePinned=True
+         NodeGuid=35030E5649B5CBED00280AA51EA163B1
+         CustomProperties Pin (PinId=79CC5C024737B2DE2C69FC86156A3F6B,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent=Class'/Script/UMG.UserWidget',MemberName="Construct"),PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,)
+         CustomProperties Pin (PinId=D10664504105DEDEBC551CB18B44C165,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,)
+      End Object
+      Begin Object Name="K2Node_Event_1"
+         EventReference=(MemberParent=Class'/Script/UMG.UserWidget',MemberName="Tick")
+         bOverrideFunction=True
+         NodePosY=200
+         NodeComment="This node is disabled and will not be called.\nDrag off pins to build functionality."
+         bCommentBubblePinned=True
+         bCommentBubbleVisible=True
+         NodeGuid=A87DAADB4D4F4FCFFA564B86582B87BD
+         EnabledState=Disabled
+         CustomProperties Pin (PinId=9DECA604433E98E8CB5D49BA875BDB8A,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent=Class'/Script/UMG.UserWidget',MemberName="Tick"),PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,)
+         CustomProperties Pin (PinId=C0012D264158C415E377C0B1DE41DC67,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,)
+         CustomProperties Pin (PinId=57A69A1C42F12A9955F7068FC95C4D9A,PinName="MyGeometry",PinToolTip="My Geometry\nGeometry Structure\n\nThe space allotted for this widget",Direction="EGPD_Output",PinType.PinCategory="struct",PinType.PinSubCategoryObject=ScriptStruct'/Script/SlateCore.Geometry',PinType.PinSubCategoryMemberReference=(),PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,)
+         CustomProperties Pin (PinId=879E91654D089A38997265A0E1F193BB,PinName="InDeltaTime",PinToolTip="In Delta Time\nFloat\n\nReal time passed since last tick",Direction="EGPD_Output",PinType.PinCategory="float",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="0.0",AutogeneratedDefaultValue="0.0",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,)
+      End Object
+      Begin Object Name="K2Node_CallFunction_0"
+         bIsPureFunc=True
+         FunctionReference=(MemberParent=Class'/Script/UMG.WidgetLayoutLibrary',MemberName="GetViewportSize")
+         NodePosX=-32
+         NodePosY=368
+         NodeGuid=DD18A76D48C21CDC560EABA6FC431C66
+         CustomProperties Pin (PinId=2DECB0824188032D11C19F83A4911A33,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinToolTip="Target\nWidget Layout Library Reference",PinType.PinCategory="object",PinType.PinSubCategoryObject=Class'/Script/UMG.WidgetLayoutLibrary',PinType.PinSubCategoryMemberReference=(),PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultObject="/Script/UMG.Default__WidgetLayoutLibrary",PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,)
+         CustomProperties Pin (PinId=2A42A7CA452F7FD34EDAE698EF31EA35,PinName="WorldContextObject",PinToolTip="World Context Object\nObject Reference",PinType.PinCategory="object",PinType.PinSubCategoryObject=Class'/Script/CoreUObject.Object',PinType.PinSubCategoryMemberReference=(),PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,)
+         CustomProperties Pin (PinId=DD4E4E884F2329A55DF88CA49CD9D772,PinName="ReturnValue",PinToolTip="Return Value\nVector 2D Structure",Direction="EGPD_Output",PinType.PinCategory="struct",PinType.PinSubCategoryObject=ScriptStruct'/Script/CoreUObject.Vector2D',PinType.PinSubCategoryMemberReference=(),PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_CallFunction_1 ABD81F4C4974397FD83B1FB3E472D73D,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,)
+      End Object
+      Begin Object Name="K2Node_CallFunction_1"
+         FunctionReference=(MemberName="SetDesiredSizeInViewport",bSelfContext=True)
+         NodePosX=240
+         NodePosY=224
+         NodeGuid=20651E24489ED43F9DC2A399CA1155CB
+         CustomProperties Pin (PinId=CB558EE841A432CBC8BB87B75F66673E,PinName="execute",PinToolTip="\nExec",PinType.PinCategory="exec",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,)
+         CustomProperties Pin (PinId=91121BFE49C9EB01EAF292B8B8E65B5A,PinName="then",PinToolTip="\nExec",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,)
+         CustomProperties Pin (PinId=8198C9E94FEA89F0857BD9B433DC5BD5,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinToolTip="Target\nUser Widget Reference",PinType.PinCategory="object",PinType.PinSubCategoryObject=Class'/Script/UMG.UserWidget',PinType.PinSubCategoryMemberReference=(),PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,)
+         CustomProperties Pin (PinId=ABD81F4C4974397FD83B1FB3E472D73D,PinName="Size",PinToolTip="Size\nVector 2D Structure",PinType.PinCategory="struct",PinType.PinSubCategoryObject=ScriptStruct'/Script/CoreUObject.Vector2D',PinType.PinSubCategoryMemberReference=(),PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_CallFunction_0 DD4E4E884F2329A55DF88CA49CD9D772,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,)
+      End Object
+      Begin Object Name="K2Node_CallFunction_60"
+         bIsPureFunc=True
+         bIsConstFunc=True
+         FunctionReference=(MemberParent=Class'/Script/UMG.Button',MemberName="IsPressed")
+         NodePosX=304
+         NodePosY=400
+         NodeGuid=4B57A2804D5A0FB45902AB84E53DA59C
+         CustomProperties Pin (PinId=AB40277741452C2FF861749B91ECCF0B,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinToolTip="Target\nButton Reference",PinType.PinCategory="object",PinType.PinSubCategoryObject=Class'/Script/UMG.Button',PinType.PinSubCategoryMemberReference=(),PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,)
+         CustomProperties Pin (PinId=2CB47A5E4B8DB984CFCE57910E30EBE9,PinName="ReturnValue",PinToolTip="Return Value\nBoolean\n\ntrue if the user is actively pressing the button otherwise false.",Direction="EGPD_Output",PinType.PinCategory="bool",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,AutogeneratedDefaultValue="false",LinkedTo=(K2Node_IfThenElse_0 CC50F7014EAB4853E1E83494215E96EC,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,)
+      End Object
+      Begin Object Name="K2Node_IfThenElse_0"
+         NodePosX=672
+         NodePosY=224
+         NodeGuid=50E4906D4E9E22299B7D32A2A1BD105F
+         CustomProperties Pin (PinId=C1C781874472523B88AD5482651E97F6,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,)
+         CustomProperties Pin (PinId=CC50F7014EAB4853E1E83494215E96EC,PinName="Condition",PinType.PinCategory="bool",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="false",AutogeneratedDefaultValue="false",LinkedTo=(K2Node_CallFunction_60 2CB47A5E4B8DB984CFCE57910E30EBE9,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,)
+         CustomProperties Pin (PinId=BD2AD37E4A2AC073CF02CA8689950D71,PinName="then",PinFriendlyName=NSLOCTEXT("K2Node", "true", "true"),Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,)
+         CustomProperties Pin (PinId=56880DF3410475C40D594E96EDE0C6EA,PinName="else",PinFriendlyName=NSLOCTEXT("K2Node", "false", "false"),Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,)
+      End Object
+      Schema=Class'/Script/BlueprintGraph.EdGraphSchema_K2'
+      Nodes(0)=K2Node_Event'K2Node_Event_0'
+      Nodes(1)=K2Node_Event'K2Node_Event_1'
+      Nodes(2)=K2Node_CallFunction'K2Node_CallFunction_0'
+      Nodes(3)=K2Node_CallFunction'K2Node_CallFunction_1'
+      Nodes(4)=K2Node_CallFunction'K2Node_CallFunction_60'
+      Nodes(5)=K2Node_IfThenElse'K2Node_IfThenElse_0'
+      bAllowDeletion=False
+      GraphGuid=6BDFA42C496E468212B4B5839ABE81DC
+   End Object
+   Begin Object Name="GetbIsEnabled_0"
+      Begin Object Name="K2Node_FunctionResult_0"
+         SignatureName="GetbIsEnabled_0"
+         bIsEditable=True
+         NodePosX=256
+         NodeGuid=6DB83C594FBB51A5251BE8836F7FE018
+         CustomProperties Pin (PinId=74FECB1E43222609F58431B3A6B08081,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_FunctionEntry_46 906E820F45C11994D52253BA098838DE,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,)
+         CustomProperties Pin (PinId=9DD372364B7684AD8859A9AEA61327F7,PinName="ReturnValue",PinType.PinCategory="bool",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="false",AutogeneratedDefaultValue="false",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,)
+         CustomProperties UserDefinedPin Name="ReturnValue" IsArray=0 IsReference=0 PinDir="EGPD_Input" Category=bool 
+      End Object
+      Begin Object Name="K2Node_FunctionEntry_46"
+         ExtraFlags=469893120
+         SignatureName="GetbIsEnabled_0"
+         bIsEditable=True
+         NodePosX=-160
+         NodePosY=-80
+         NodeGuid=2337AFC04721D2E9B7C308A3CFF5E283
+         CustomProperties Pin (PinId=906E820F45C11994D52253BA098838DE,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_FunctionResult_0 74FECB1E43222609F58431B3A6B08081,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,)
+      End Object
+      Schema=Class'/Script/BlueprintGraph.EdGraphSchema_K2'
+      Nodes(0)=K2Node_FunctionEntry'K2Node_FunctionEntry_46'
+      Nodes(1)=K2Node_FunctionResult'K2Node_FunctionResult_0'
+      GraphGuid=71E927B04DCEBD3FC927CB948B894C4E
+   End Object
+   WidgetTree=WidgetTree
+   ParentClass=Class'/Script/UMG.UserWidget'
+   UbergraphPages(0)=EdGraph'EventGraph'
+   FunctionGraphs(0)=EdGraph'GetbIsEnabled_0'
+   CategorySorting(0)="Appearance"
+   CategorySorting(1)="Interaction"
+   CategorySorting(2)="Input"
+   CategorySorting(3)="Layout"
+   CategorySorting(4)="Behavior"
+   CategorySorting(5)="Performance"
+   CategorySorting(6)="Render Transform"
+   CategorySorting(7)="Navigation"
+   CategorySorting(8)="New Item Text Box"
+   BlueprintSystemVersion=2
+   LastEditedDocuments(0)=(EditedObject=EdGraph'GetbIsEnabled_0',SavedViewOffset=(X=-548.250000,Y=-357.100006),SavedZoomAmount=1.000000)
+   LastEditedDocuments(1)=(EditedObject=EdGraph'EventGraph',SavedViewOffset=(X=-109.294128,Y=-121.100006),SavedZoomAmount=1.000000)
+   GeneratedClass=WidgetBlueprintGeneratedClass'NewItemTextBox_C'
+   bLegacyNeedToPurgeSkelRefs=False
+   bLegacyGeneratedClassIsAuthoritative=True
+   BlueprintGuid=D98444384FB83FBC8717CDA6278912BC
+End Object
